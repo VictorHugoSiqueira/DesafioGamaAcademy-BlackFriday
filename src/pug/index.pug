@@ -25,7 +25,7 @@ html(lang='en')
     body
 
         // Navigation
-        nav.navbar.navbar-light.bg-light.static-top
+        nav.navbar.navbar-light.bg-light.fixed-top
             .container
                 a.navbar-brand(href='#!') ViCommerce
 
@@ -71,7 +71,7 @@ html(lang='en')
                                 #submitSuccessMessage.d-none
                                     .text-center.mb-3
                                         .fw-bolder 
-                                        p Muito obrigado por se cadastrar no meu sistema =) Continua a força e me segue lá no Linkedin
+                                        p Muito obrigado por se cadastrar =) Continua a força e me segue lá no Linkedin
                                         a.text-white(href='https://www.linkedin.com/in/victor-hugo-fernandes-siqueira-b22a10154/') https://www.linkedin.com/in/victor-hugo-fernandes-siqueira-b22a10154/
 
                                 // Submit error message
@@ -82,72 +82,50 @@ html(lang='en')
                                 #submitErrorMessage.d-none
                                     .text-center.text-danger.mb-3 
 
-        // Icons Grid
-        section.features-icons.bg-light.text-center
-            .container
-                .row
-                    .col-lg-4
-                        .features-icons-item.mx-auto.mb-5.mb-lg-0.mb-lg-3
-                            .features-icons-icon.d-flex
-                                i.bi-window.m-auto.text-primary
-                            h3 Fully Responsive
-                            p.lead.mb-0 This theme will look great on any device, no matter the size!
-                    .col-lg-4
-                        .features-icons-item.mx-auto.mb-5.mb-lg-0.mb-lg-3
-                            .features-icons-icon.d-flex
-                                i.bi-layers.m-auto.text-primary
-                            h3 Bootstrap 5 Ready
-                            p.lead.mb-0 Featuring the latest build of the new Bootstrap 5 framework!
-                    .col-lg-4
-                        .features-icons-item.mx-auto.mb-0.mb-lg-3
-                            .features-icons-icon.d-flex
-                                i.bi-terminal.m-auto.text-primary
-                            h3 Easy to Use
-                            p.lead.mb-0 Ready to use with your own content, or customize the source files!
-
+        
         // Image Showcases
         section.showcase
             .container-fluid.p-0
                 .row.g-0
                     .col-lg-6.order-lg-2.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-1.jpg');")
                     .col-lg-6.order-lg-1.my-auto.showcase-text
-                        h2 Fully Responsive Design
+                        h2 Iphones por preços imperdíveis
                         p.lead.mb-0
-                            | When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!
+                            | Venha conferir os nossos preços em celulares, somente até o dia 20/07/2021 teremos ofertascom 50% de desconto!
                 .row.g-0
                     .col-lg-6.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-2.jpg');")
                     .col-lg-6.my-auto.showcase-text
-                        h2 Updated For Bootstrap 5
+                        h2 Venha conferir nossos eletrodomésticos
                         p.lead.mb-0
-                            | Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!
+                            | Monte a sua cozinha completa aqui mesmo e parcele em até 24x sem juros!
                 .row.g-0
                     .col-lg-6.order-lg-2.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-3.jpg');")
                     .col-lg-6.order-lg-1.my-auto.showcase-text
-                        h2 Easy to Use & Customize
+                        h2 Roupas masculinas e femininas!
                         p.lead.mb-0
-                            | Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!
+                            | Compre Já Tudo Que Está Bombando! As Melhores Marcas de Roupas Você Só Encontra Aqui!
 
         // Testimonials
         section.testimonials.text-center.bg-light
             .container
-                h2.mb-5 What people are saying...
+                h2.mb-5
                 .row
                     .col-lg-4
                         .testimonial-item.mx-auto.mb-5.mb-lg-0
                             img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-1.jpg', alt='...')
-                            h5 Margaret E.
-                            p.font-weight-light.mb-0 "This is fantastic! Thanks so much guys!"
+                            h5 Venha conferir os preços de laptops
+                            p.font-weight-light.mb-0 
                     .col-lg-4
                         .testimonial-item.mx-auto.mb-5.mb-lg-0
                             img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-2.jpg', alt='...')
-                            h5 Fred S.
+                            h5 Gama Academy
                             p.font-weight-light.mb-0
-                                | "Bootstrap is amazing. I've been using it to create lots of super nice landing pages."
+                                | Aproveite as ofertas de cursos de TI na Gama Academy 
                     .col-lg-4
                         .testimonial-item.mx-auto.mb-5.mb-lg-0
                             img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-3.jpg', alt='...')
-                            h5 Sarah W.
-                            p.font-weight-light.mb-0 "Thanks so much for making these free resources available to us!"
+                            h5 Produtos de Beleza
+                            p.font-weight-light.mb-0 Confira as ofertas em cosméticos e compre com 50% de desconto!
 
         // Call to Action
         section#signup.call-to-action.text-white.text-center
@@ -166,7 +144,7 @@ html(lang='en')
                         // https://startbootstrap.com/solution/contact-forms
                         // to get an API token!
 
-                        form.form-subscribe#contactFormFooter(data-sb-form-api-token='API_TOKEN')
+                        form.form-subscribe#contactFormFooter(data-sb-form-api-token='form')
 
                             // Email address input
                             .row
@@ -187,9 +165,9 @@ html(lang='en')
 
                             #submitSuccessMessage.d-none
                                 .text-center.mb-3
-                                    .fw-bolder Form submission successful!
-                                    p To activate this form, sign up at
-                                    a.text-white(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
+                                    .fw-bolder Cadastrado com Sucesso!
+                                    p 
+                                    a.text-white(href='') 
 
                             // Submit error message
                             //
@@ -197,7 +175,7 @@ html(lang='en')
                             // an error submitting the form
 
                             #submitErrorMessage.d-none
-                                .text-center.text-danger.mb-3 Error sending message!
+                                .text-center.text-danger.mb-3 
 
         // Footer
         footer.footer.bg-light
