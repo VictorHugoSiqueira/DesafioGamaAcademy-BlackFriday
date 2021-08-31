@@ -1,11 +1,11 @@
-# Crud Gama Academy Desafio #2 
-https://github.com/VictorHugoSiqueira/CrudDesafio2GamaAcademy
+# Desafio Gama Academy Black Friday
+https://github.com/VictorHugoSiqueira/DesafioGamaAcademy-BlackFriday
 
 # Sobre o projeto
 
-Crud Gama Academy é uma aplicação full stack web construída durante a 1ª edição da **Hiring Coders ** evento organizado pela [Gama Academy] (https://www.linkedin.com/school/gama-academy/ "Linkedin da Gama Academy").
+Desafio Gama Academy Black Friday é uma aplicação front end construída durante a 1ª edição da **Hiring Coders ** evento organizado pela [Gama Academy] (https://www.linkedin.com/school/gama-academy/ "Linkedin da Gama Academy").
 
-A aplicação consiste em uma gestão de cadastro de Clientes e Produtos, onde os dados são coletados por inputs, e depois são listados em uma tabela de clientes e outra tabela para produtos. Dentre as funcionalidades de adcionar e remover produtos/clientes , também podemos editar e atualizar dados.
+A aplicação consiste em uma landing page de ecommerce simples com o tema de black friday onde o objetivo era ter um input para guardar o e-mail do cliente no local storage.
 
 ## Layout Web Home
 ![Web 1](https://github.com/VictorHugoSiqueira/DesafioGamaAcademy-BlackFriday/blob/master/src/assets/img/1.png)
@@ -23,31 +23,20 @@ A aplicação consiste em uma gestão de cadastro de Clientes e Produtos, onde o
 ![Web 5](https://github.com/VictorHugoSiqueira/DesafioGamaAcademy-BlackFriday/blob/master/src/assets/img/5.png)
 
 # Tecnologias Utilizadas
-## Backend
-- JavaScript
-- JSON Server
+
 ## Front end
 - HTML / CSS / JS / TypeScript
 - ReactJS (framework)
+- Bootstrap
 ## Extra
 - Localstorage
 
 # Executando o projeto
 ## Clonando o repositório
-git clone https://github.com/VictorHugoSiqueira/CrudDesafio2GamaAcademy
-
-## Iniciando o back dos clientes 
-<dt>1 - cd backend/clients</dt>
-<dt>2 - npm install</dt>
-<dt>3 - npm start</dt>
-
-## Iniciando o back dos Produtos 
-<dt>1 - cd backend/products</dt>
-<dt>2 - npm install</dt>
-<dt>3 - npm start</dt>
+git clone https://github.com/VictorHugoSiqueira/DesafioGamaAcademy-BlackFriday
 
 ## Iniciando a aplicação Web
-<dt>1 - cd frontend</dt>
+
 <dt>2 - npm install</dt>
 <dt>3 - npm start</dt>
 
